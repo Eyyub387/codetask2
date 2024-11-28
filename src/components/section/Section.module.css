@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier{
+    width: 100%;
+    height: 110vh;
+    background-image: url(https://preview.colorlib.com/theme/rezume/images/image_1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.write{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.write p{
+    font-size: 70px;
+    color: white;
+}
+.write h1{
+    font-size: 80px;
+    color: white;
+}
+.write h3{
+    font-size: 20px;
+    color: white;
+}
+.bos{
+    width: 100%;
+    height: 110vh;
+    background-color:black;
+    opacity: .55;
+    z-index: 2;
+    position: absolute;
+}
